@@ -5,9 +5,7 @@
     "prettier",
     "plugin:storybook/recommended"
   ],
-  "plugins": [
-    "cypress"
-  ],
+  "plugins": ["cypress"],
   "env": {
     "cypress/globals": true
   }
