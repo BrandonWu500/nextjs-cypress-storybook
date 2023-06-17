@@ -8,7 +8,7 @@ const Container = styled.div`
 const Home = () => {
   return (
     <Container theme="dark">
-      <h1 className="test">Homes</h1>
+      <h1>Homes</h1>
       <p>test</p>
     </Container>
   );
