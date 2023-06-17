@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: Setup CI
     runs-on: ubuntu-latest
 
     strategy:
@@ -32,3 +33,4 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: npm start
+          browser: chrome
